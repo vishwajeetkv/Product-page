@@ -3,7 +3,7 @@ let btn = document.getElementsByClassName("btn");
 
 
 btn[0].onclick = function(){
-    productImg.src="image/image1.png";
+    productImg.src="image1.png";
 
     for(bt of btn){
         bt.classList.remove("active");
@@ -12,7 +12,7 @@ btn[0].onclick = function(){
 
 }
 btn[1].onclick = function(){
-    productImg.src="image/image2.png";
+    productImg.src="image2.png";
 
     for(bt of btn){
         bt.classList.remove("active");
@@ -21,7 +21,7 @@ btn[1].onclick = function(){
 
 }
 btn[2].onclick = function(){
-    productImg.src="image/image3.png";
+    productImg.src="image3.png";
 
     for(bt of btn){
         bt.classList.remove("active");
